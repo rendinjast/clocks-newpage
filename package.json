@@ -1,5 +1,5 @@
 {
-  "name": "clocks-of-clock",
+  "name": "clocks-newpage",
   "description": "yet another Chrome new tab extension but with many clocks",
   "author": {
     "name": "Erfan Khadivar",
@@ -9,7 +9,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rendinjast/clocks-of-clock.git"
+    "url": "git+ssh://git@github.com/rendinjast/clocks-newpage.git"
   },
   "keywords": [
     "chrome",
