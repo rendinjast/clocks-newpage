@@ -1,4 +1,4 @@
-# Clocks of Clock Chrome New Tab
+# Clocks Chrome New Tab
 
 ![preview](./preview.gif)
 
