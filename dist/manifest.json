@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Clocks of Clock",
+  "description": "yet another Chrome new tab extension but with many clocks",
+  "version": "0.0.0.1",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
