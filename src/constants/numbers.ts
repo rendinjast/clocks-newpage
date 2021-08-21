@@ -330,7 +330,7 @@ export const numberNine: BlockType = [
 const SwitchNumber = (number: string) => {
   switch (number) {
     case '0':
-      return numberOne;
+      return numberZero;
     case '1':
       return numberOne;
     case '2':
