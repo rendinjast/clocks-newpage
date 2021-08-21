@@ -4,6 +4,7 @@ import { separator } from '../../constants/numbers';
 import { BlockType } from '../../constants/types';
 import Clock from '../Clock/Clock';
 import { Container } from './style';
+
 interface IBlock {
   number: BlockType;
 }
