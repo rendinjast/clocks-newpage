@@ -1,6 +1,6 @@
 # Clocks of Clock Chrome New Tab
 
-![preview](./wiki-cli.gif)
+![preview](./preview.gif)
 
 ## Usage
 
