@@ -1,10 +1,9 @@
 /* eslint-disable react/no-array-index-key */
 import { FC } from 'react';
 import { separator } from '../../constants/numbers';
-import { BlockType, ClockRotate } from '../../constants/types';
+import { BlockType } from '../../constants/types';
 import Clock from '../Clock/Clock';
 import { Container } from './style';
-
 interface IBlock {
   number: BlockType;
 }
