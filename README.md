@@ -5,7 +5,7 @@
 ## Usage
 
 ```
--> # git clone https://git@github.com/rendinjast/clocks-of-clock
+-> # git clone https://github.com/rendinjast/clocks-newpage
 
 -> go to chrome extension page and enable developer mode
 
