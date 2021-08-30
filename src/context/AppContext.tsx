@@ -6,8 +6,10 @@ export type AppState = {
   name: string;
 };
 
+const userColorScheme = window.matchMedia('(prefers-color-scheme: dark)') ? 'dark' : 'light';
+
 const initialValue: AppState = {
-  theme: localStorage.getItem('theme') || 'light',
+  theme: localStorage.getItem('theme') || userColorScheme,
   name: localStorage.getItem('name') || '',
 };
 const Context = createContext<{ state: AppState; dispatch: Dispatch<AppAction> }>({
