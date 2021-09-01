@@ -6,7 +6,7 @@ export type AppState = {
   name: string;
 };
 
-const userColorScheme = window.matchMedia('(prefers-color-scheme: dark)') ? 'dark' : 'light';
+const userColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 
 const initialValue: AppState = {
   theme: localStorage.getItem('theme') || userColorScheme,
