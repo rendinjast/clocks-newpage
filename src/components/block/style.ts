@@ -9,7 +9,6 @@ export const Container = styled.div<props>`
   justify-content: center;
   grid-template-columns: repeat(${({ separator }) => separator}, 46px);
   grid-template-rows: repeat(6, 46px);
-  margin-bottom: 10rem;
   align-items: center;
   direction: rtl;
   @media only screen and (max-width: 1400px) {
